@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BIEN</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('img/fondo.jpg'); 
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: black;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: gold;
+            margin-top: 20px;
+            font-family: verdana, sans-serif;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+        }
+
+        img {
+            
+            margin-top: 20px;
+            border-radius: 1em;
+            box-shadow: 10px 10px 15px gold;
+            transition: transform 0.3s ease, box-shadow 0.3s ease; 
+        }
+
+       
+        img:hover {
+            transform: scale(1.05); 
+             box-shadow: 10px 10px 15px gold;
+        }
+
+        .description {
+            margin: 20px auto;
+            width: 60%;
+            font-size: 1.2em;
+            line-height: 1.6; 
+            color: white;
+        }
+
+        .description span {
+            display: block;
+            margin: 10px 0;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: -10px;
+            padding: 10px 20px;
+            background-color: gold;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease; 
+        }
+
+        .back-button:hover {
+            background-color: darkgoldenrod;
+            transform: scale(1.05); 
+        }
+    </style>
+</head>
+<body>
+    <h1>BIEN</h1>
+
+    <img src="img/bien.gif" alt="bien">
+
+    <div class="description">
+        <span><i>"Bien"</i></span>
+        <span>way to say "Good" in Mexican sign language</span>
+    </div>
+    <a href="index.html" class="back-button">REGRESAR</a>
+</body>
+</html>
